@@ -1,0 +1,19 @@
+# Student Details
+name = input("Name:")
+ID= input("ID:")
+Course=input("Course & Section")
+
+# Assign Grades
+#Average
+G1 = eval(input("Enter 1st Quarter Grade: "))
+G2 = eval(input("Enter 2nd Quarter Grade: "))
+G3 = eval(input("Enter 3rd Quarter Grade: "))
+G4 = eval(input("Enter 4th Quarter Grade: "))
+#division of grades
+numberofgrades = 4
+#average
+Average = G1 + G2 + G3 + G4 / numberofgrades
+print("The average grade:", Average)
+print("Student Name:", name)
+print("ID#:", ID)
+print("Course & Section:", Course)
